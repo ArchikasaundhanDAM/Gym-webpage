@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shruti Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body{
+        margin:0px;
+        padding: 0px;
+    background-image: url("gyn.jpg");
+    height: 100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+    }
+.left{
+border: solid red;
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mid{
+    
+    width: 40%;
+
+    margin: 31px auto;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+.right{
+    
+    
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 40px;    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display:inline-block;
+    
+    font-size: 23px;
+    
+}
+.navbar li a{
+color: white;
+text-decoration: none;
+
+padding:34px 23px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color: rgb(78, 65, 65);
+}
+.btn{
+    margin: 0px 12pxpx;
+    background-color: black;
+    font-size: medium;
+    color:white;
+    padding:7px 18px;
+    border-radius: 10px;
+    cursor:pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn:hover{
+    background-color: grey;
+}
+.container{
+    background-color: white;
+    padding: 71px 92px;
+    margin: 81px 62px;
+    width: 18%;
+    border-radius: 21px;
+}
+   .formgroup input{
+    text-align: center;
+    display: block;
+    width:34%;
+    padding:5px;
+    border:soild black;
+    margin:8px auto;
+   } 
+</style>
+<body>
+    <header class="class">
+
+        <div class="left">
+<!-- left box for logo -->
+           </div>
+        <div class="right">
+<!-- right box for buttons -->
+      <button class="btn">Call Us Now</button>
+      <button class="btn">Email Us</button>
+
+        </div>
+        <div class="mid">
+<!-- mid box for nav bar -->
+         
+         <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">Contact Us</a></li>
+         </ul>
+         
+          
+        </div>
+    </header>
+<div class="container">
+<h1>Join The Best Gym Of Chitrakoot:-</h1>
+<form action="noaction.php" class="action">
+    <div class="formgroup">
+        <input type="text" placeholder="Enter Your Name" id="">
+        <input type="text" placeholder="Enter Your Age" id="">
+        <input type="text" placeholder="Enter Your Gender" id="">
+        <input type="text" placeholder="Enter Your Phone Number" id="">
+
+    </div>
+    <button class="btn">Submit</button>
+</form>
+</div>
+</body>
+</html>
